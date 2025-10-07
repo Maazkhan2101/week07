@@ -38,16 +38,16 @@ Your GitHub Actions workflow will need credentials to interact with Azure and AC
 
   ```json
   {
-    "clientId": "<Client ID>",
-    "clientSecret": "<Client Secret>",
-    "subscriptionId": "<Subscription ID>",
-    "tenantId": "<Tenant ID>"
+    "clientId": "bc1cceef-1bc7-4113-a502-c07ccb9fbb35",
+    "clientSecret": "QYb8Q~oE3JVak78lAA3TqTWDLkLjfZDC1WCPtczD",
+    "subscriptionId": "8bd78680-8893-4e8f-9b9a-ce7bc857cae1",
+    "tenantId": "d02378ec-1688-46d5-8540-1c28b5f470f6"
   }
   ```
 
   Paste this complete JSON object as the value for the `AZURE_CREDENTIALS` secret.
 
-  - **`ACR_LOGIN_SERVER`**: The full login server name of your Azure Container Registry (e.g., `myacr.azurecr.io`).
+  - **`ACR_LOGIN_SERVER`**: The full login server name of your Azure Container Registry (e.g., `maazkhan2101.azurecr.io`).
 
     You can find this by navigating to your Azure Container Registry in the Azure portal, selecting "Access keys" under "Settings", and locating the "Login server" value. Add this value as the `ACR_LOGIN_SERVER` secret.
 
